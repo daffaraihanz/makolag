@@ -1,0 +1,387 @@
+body {
+    font-family: "Nunito Sans";
+    /* margin-bottom: 3000px; */
+}
+
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: #202020;
+}
+
+.navbar-collapse ul li {
+    margin: 0 10px 0 10px;
+}
+
+.navbar a:hover {
+    color: #53CE66 !important;
+}
+
+.navbar-collapse .login {
+    border: solid 1px #fff;
+    padding: 10px 40px;
+    border-radius: 6px;
+    margin: 0 0 0 10px;
+}
+
+.navbar-collapse .register {
+    margin: 0 10px 0 0;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+    margin-bottom: 0;
+    background-image: url(../img/jumbotron/background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.jumbotron p {
+    font-size: 14px;
+}
+
+.jumbotron button,
+.create .content button {
+    text-transform: uppercase;
+    background: #258E35;
+    padding: 20px 43px;
+    border-radius: 6px;
+    font-weight: 800;
+}
+
+.jumbotron .card {
+    background: rgba(255, 255, 255, 0.09);
+    border: none;
+}
+
+.jumbotron .card .title h6 {
+    font-size: 15px;
+    font-weight: 800;
+    color: #258E35;
+    margin-top: 3px;
+}
+
+.jumbotron .card .card-body p {
+    color: #DEDEDE;
+    font-size: 14px;
+}
+
+/* BRANDS */
+
+.brands {
+    background: #010716;
+    padding: 79px 0;
+}
+
+/* ABOUT */
+
+.about {
+    background: #03060D;
+    padding: 165px 0;
+}
+
+.about .content h6,
+.works .content h6,
+.service .content h6,
+.support .content h6 {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.25);
+    font-weight: 800;
+}
+
+.about .content h2,
+.create .content h2,
+.works .content h2,
+.service .content h2,
+.support .content h2 {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Open Sans";
+    color: #FFFFFF;
+    line-height: 63px;
+    letter-spacing: 0.01em;
+}
+
+.about .content p {
+    line-height: 31px;
+    letter-spacing: 0.005em;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.55);
+    margin-bottom: 48px;
+}
+
+.about .content a {
+    font-size: 16px;
+    color: #258E35;
+    font-weight: 800;
+}
+
+/* CREATE */
+
+.create {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 139px 0;
+    background-image: url(../img/histori/create.png);
+}
+
+.create .content p {
+    line-height: 31px;
+    letter-spacing: 0.005em;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.55);
+    margin-bottom: 35px;
+}
+
+/* WORKS */
+
+.works {
+    background: #03060D;
+    padding: 167px 0 170px 0;
+}
+
+.works .card {
+    /* border: #03060D solid 1px; */
+    height: 528px;
+    transition: .3s;
+    border: #03060D 5px solid;
+    /* border-top-width: 5px; */
+}
+
+.works .card-body {
+    padding: 82px 68px 62px 68px;
+    background: #03060D;
+}
+
+.works .card:hover,
+.service .card:hover {
+    cursor: pointer;
+    border-top-color: #53CE66;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-bottom: none;
+}
+
+.works .card:hover .card-body {
+    background: #070C18;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.works .card:hover .path {
+    fill: #53CE66;
+    transition: .3s;
+}
+
+.works .card:hover path {
+    stroke: #53CE66;
+    transition: .3s;
+}
+
+.works .card-body h4 {
+    margin: 40px 0 15px 0;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 20px;
+    color: #9A9B9E;
+}
+
+.works .card-body p {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 27px;
+    letter-spacing: 0.005em;
+    color: #9A9B9E;
+}
+
+.works .card {
+    transition: .3s;
+}
+
+/* SERVICE */
+
+.service {
+    background: #060910;
+    padding: 167px 0 212px 0;
+}
+
+.service h4 {
+    font-size: 20px;
+    color: #258E35;
+    font-weight: 800;
+    margin: 30px 0 15px 0;
+}
+
+.service p {
+    font-size: 14px;
+    line-height: 27px;
+    letter-spacing: 0.005em;
+    color: #9A9B9E;
+}
+
+.service .card {
+    border-top-color: #060910;
+    border-top-width: 5px;
+    background: #060910;
+    transition: .3s;
+}
+
+.service .card-body {
+    padding: 55px 55px 42px 55px;
+}
+
+.service .card:hover {
+    background: #070C18;
+}
+
+/* SUPPORT */
+
+.support {
+    padding: 167px 0 160px 0;
+    background: #03060D;
+}
+
+.support .pagination img:hover {
+    cursor: pointer;
+}
+
+.support .pagination {
+    justify-content: center;
+}
+
+/* FOOTER */
+ul li {
+    list-style: none;
+}
+
+footer {
+    padding: 125px 0 168px 0;
+    background: #03060D;
+}
+
+footer img {
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 27px;
+    letter-spacing: 0.005em;
+    color: #9A9B9E;
+}
+
+footer p span {
+    color: #fff;
+}
+
+footer ul li h5 {
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+footer ul li {
+    margin-bottom: 12px;
+}
+
+footer ul li a {
+    color: #9A9B9E;
+    font-size: 14px;
+}
+
+/* ICON EFFECT */
+
+/* svg {
+    position: absolute;
+    right: 0;
+} */
+
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 991px) {
+    .jumbotron button {
+        margin-bottom: 50px;
+    }
+
+    .brands img {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .jumbotron .left {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 441px) {
+    .navbar-collapse .register {
+        text-align: center;
+    }
+
+    .navbar-collapse .login {
+        text-align: center;
+        margin: 10px 0 0 0;
+    }
+
+    .navbar-collapse .register {
+        padding: 0;
+        margin: 0;
+    }
+
+    /* JUMBOTRON */
+
+    .jumbotron h1 {
+        font-size: 40px;
+    }
+
+    .jumbotron .left {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .jumbotron .right {
+        text-align: center;
+    }
+
+    /* BRANDS */
+    .brands img {
+        margin-bottom: 50px;
+    }
+
+    /* CREATE */
+    .create .content {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .create .content h2 {
+        font-size: 45px;
+    }
+
+    /* WORKS */
+
+    /* SUPPORT */
+    .support .content {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+
+
+}
