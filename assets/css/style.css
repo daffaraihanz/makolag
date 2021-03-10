@@ -155,7 +155,8 @@ h6 {
     /* border: #03060D solid 1px; */
     height: 528px;
     transition: .3s;
-    border: #03060D 5px solid;
+    border: none;
+    border-top: #03060D 5px solid;
     /* border-top-width: 5px; */
 }
 
@@ -167,6 +168,7 @@ h6 {
 .works .card:hover,
 .service .card:hover {
     cursor: pointer;
+    transition: .3s;
     border-top-color: #53CE66;
     border-top-width: 5px;
     border-top-style: solid;
